@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 0 auto;
+  width: 600px;
+  height: 650px;
+  background-color: black;
+}
+
+.row {
+  text-align: center;
+  padding-top: 5px;
+}
+
+.item {
+  width: 180px;
+  height: 225px;
+  background-size: cover;
+}
+
+.first {
+  background-image: url("../img/pd1.jpg");
+  display: inline-block;
+}
+
+.second {
+  background-image: url("../img/pd2.jpg");
+  display: inline-block;
+}
+
+.third {
+  background-image: url("../img/pd3.jpg");
+  display: inline-block;
+}
