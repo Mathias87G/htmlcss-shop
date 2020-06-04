@@ -20,6 +20,7 @@
   width: 180px;
   height: 225px;
   background-size: cover;
+  position: relative;
 }
 
 .first {
@@ -35,4 +36,34 @@
 .third {
   background-image: url("../img/pd3.jpg");
   display: inline-block;
+}
+
+.discount {
+  font-size: 12px;
+  font-weight: bold;
+  top: 0px;
+  right: 0px;
+  position:absolute;
+}
+
+.high {
+  background-color: green;
+}
+
+.low {
+  background-color: red
+}
+
+.heart {
+  font-size: 30px;
+  color: red;
+  position:absolute;
+  bottom: 2px;
+  left: 50%;
+  transform: translate(-50%);
+  display: none;
+}
+
+.item:hover .heart {
+  display: block;
 }
